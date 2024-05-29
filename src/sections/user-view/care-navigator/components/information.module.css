@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .item {
+    font-size: 0.75rem;
+  }
+}

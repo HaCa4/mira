@@ -1,0 +1,16 @@
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+.detail {
+  font-size: 1.15rem;
+}
+
+@media (max-width: 768px) {
+  .detail {
+    font-size: 0.75rem;
+  }
+}
